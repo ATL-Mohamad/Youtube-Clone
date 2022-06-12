@@ -39,7 +39,7 @@
 
 #middleSection{
   flex: 1;
-  max-width: 500px;
+  max-width: 600px;
   margin-left: 70px;
   margin-right: 30px;
   display: flex;
@@ -47,7 +47,7 @@
 }
 
 #rightSection{
-  width: 180px;
+  width: 250px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -121,6 +121,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  font-family: Roboto, Arial;
 }
 
 
@@ -141,15 +142,15 @@
 }
 
 #uploadImage{
-  height: 24px;
+  height: 28px;
 }
 
 #apps{
-  height: 24px;
+  height: 28px;
 }
 
 #notifications{
-  height: 24px;
+  height: 28px;
 }
 
 #notificationsContainer{
@@ -158,8 +159,8 @@
 
 #notifiactionCount{
   position: absolute;
-  top: -2px;
-  right: -3px;
+  top: -1px;
+  right: -1.5px;
   background-color: rgb(200, 0, 0);
   color: white;
   font-family: Roboto, Arial;
@@ -172,8 +173,8 @@
 }
 
 #profilePicture{
-  height: 32px;
-  border-radius: 16px;
+  height: 36px;
+  border-radius: 18px;
 }
 
 #leftSection img{
